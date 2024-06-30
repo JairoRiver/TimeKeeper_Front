@@ -1,7 +1,7 @@
 import Link from "next/link"
 
 export default function NavBar() {
-    let navigationPages = ["register", "view-times", "export-data"]
+    let navigationPages: string[] = ["register", "view-times", "export-data"]
     return (
         <section className="flex flex-col h-[86vh]">
             <div className="flex justify-center items-center h-[6vh] border-2 rounded-md border-blue-300">

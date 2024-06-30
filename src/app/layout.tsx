@@ -10,6 +10,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "TimeKeeper",
   description: "Time record app",
+  icons: {
+    icon: "./favicon.ico"
+  }
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode; }>) {
